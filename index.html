@@ -5,22 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resume</title>
   <style>
-    .resume {
-      width: 100%;
-      max-width: 800px;
-      height: 1132px;
+     .resume {
+      width: 800px;
       margin: 100px auto;
       padding: 50px;
       background-color: #fff;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
       font-family: roboto;
-      /* background-color: aqua; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
     h1{
-      font-size: 40px;
+      font-size: 2.5em;
     }
     ul,p{
       font-size: 18px;
+    }
+    @media screen and (max-width:910px){
+      .resume{
+        width: 700px;
+      }
     }
   </style>
 </head>
